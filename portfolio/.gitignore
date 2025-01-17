@@ -1,0 +1,79 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+*.cache
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+*.sass-cache/
+*.eslintrc.cache
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Frameworks
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+
+# Static site generators
+.cache/
+.gatsby/
+
+# Laravel
+/vendor/
+.phpunit.result.cache
+
+# Miscellaneous
+*.env.local
+*.sqlite
+*.sqlite3
+
+# Ignore local files for specific libraries or tools
+__pycache__/
+*.pyc
+*.pyo
+
+# Custom ignore rules
+my-custom-folder/
+custom-script-output/
